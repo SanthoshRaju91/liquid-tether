@@ -1,5 +1,5 @@
 {
-  "name": "liquid-tether",
+  "name": "liquid-tether-fixed",
   "version": "1.1.0",
   "description": "Modals made easy",
   "directories": {
@@ -51,10 +51,10 @@
   "dependencies": {
     "broccoli-funnel": "^0.2.8",
     "broccoli-merge-trees": "^0.2.3",
-    "liquid-wormhole": "^1.0.0",
-    "tether": "pzuraq/tether#move-disable",
+    "ember-cli-babel": "^5.1.5",
     "ember-cli-htmlbars": "^1.0.1",
-    "ember-cli-babel": "^5.1.5"
+    "liquid-wormhole": "^1.0.0",
+    "tether-move-disable": "^1.1.0"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config",
