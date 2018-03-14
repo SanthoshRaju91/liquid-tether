@@ -6,7 +6,7 @@ var mergeTrees = require('broccoli-merge-trees');
 var Funnel = require('broccoli-funnel');
 
 module.exports = {
-  name: 'liquid-tether',
+  name: 'liquid-tether-fixed',
 
   treeForVendor: function(tree) {
     var tetherPath = path.dirname(require.resolve('tether-move-disable'));
